@@ -1,7 +1,7 @@
 # MERN-stack
 Mongo-atlas, Express, React, Node.js, Rest api
 
-Incrementing integers as a node-mongo-atlas-Rest-Service. I have developed this service using node.js, mongodb atlas, jwt. 
+1) Incrementing integers as a node-mongo-atlas-Rest-Service. I have developed this service using node.js, mongodb atlas, jwt. 
 
 General Usage Notes: Following are the routes that I have created:
 
@@ -18,6 +18,6 @@ Input: { "cnt": 100 }
 
 /:username: This is to delete existing user. This is a delete request. I have created this to remove temporary user created during development process.
 
-React
-Added a UI that consumes above rest service. Developed user login functionality. 
-When valid user logged in through a web page (used "Login" api) its current ineteger is displayed on the web page (using "current" api)
+2) Added a UI that consumes above rest service using React. Developed user login functionality.
+
+When valid user is logged in through a web page (used "Login" api) its current ineteger is displayed on the web page (using "current" api)
