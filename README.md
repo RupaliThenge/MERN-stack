@@ -23,3 +23,7 @@ Mongo-atlas, Express, React, Node.js, Rest api
 2) Added a UI that consumes above rest service using React. Developed user login functionality.
 
 	 When valid user is logged in through a web page (used "Login" api) its current ineteger is displayed on the web page (using "current"    api)
+3) If you get error "npm ERR! client@0.1.0 start: `react-scripts start`" run following commands
+npm install --save react react-dom react-scripts
+npm install react-router-dom
+npm run dev
